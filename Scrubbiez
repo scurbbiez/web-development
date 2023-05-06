@@ -1,0 +1,243 @@
+<!-- This code creates a professional interactive auto detailing website that allows customers to book appointments. -->
+
+<!DOCTYPE html>
+<html>
+</script>
+<style type="text/css">
+  /* This code styles the website with a professional tone */
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #9eaaaa;
+    color: #030303;
+    margin: 0;
+    padding: 0;
+    box-shadow: 0px 2px 5px #090909;
+  }
+  
+  /* This code styles the header */
+  header {
+    background-color: #7f8485;
+    color: #3b373a;
+    padding: 20px;
+    box-shadow: 0px 2px 5px #010101;
+    text-shadow:0px 2px 5px #e5e2d7;
+  };
+  
+  
+  /* This code styles the main content area */
+  main {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  /* This code styles the services section */
+  .services {
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 0px 2px 5px #010101;
+  }
+  
+  .service {
+    width: 300px;
+    margin: 20px;
+    text-align: center;
+    border: 1px solid #060606c1;
+    background-color: #b8c7cb;
+    box-shadow: 0px 2px 5px #47837b;
+  }
+  
+  .service img {
+    width: 100%;
+    height: auto;
+    
+  }
+  
+  /* This code styles the appointment form */
+  form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #e6eeee;
+    box-shadow: 0px 2px 5px #00466cc5;
+    text-shadow: #0a0a0ac5;
+  }
+  label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-shadow: #0a0a0ac5;
+  }
+  input[type=text], input[type=email], input[type=date] {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #2aaac6;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #0b0b0c;
+    text-shadow: #0a0a0ac5;
+  }
+  input[type=submit] {
+    background-color: #0d0d0e;
+    color: #fafafa;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  input[type=submit]:hover {
+    background-color: #090909;
+  }
+  
+</style>
+<head>
+	<title>Auto Detailing</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="script.js"></script>
+</head>
+<body>
+	<header>
+		<h1>Scrubbiez Professional Auto Detailing</h1>
+		<p>We offer the best detailing services in Vanderhoof for your vheicle</p>
+	</header>
+	
+	<nav>
+		<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">Services</a></li>
+			<li><a href="#">Book an Appointment</a></li>
+			<li><a href="#">Contact Us</a></li>
+            <li><a href="#">Our Work</a></li>
+		</ul>
+	</nav>
+	
+	<main>
+		<section>
+			<h2>About Us</h2>
+			<p>We are a professional auto detailing company dedicated to providing the best service for your car. Our team of experts will make sure your car looks like new again.</p>
+		</section>
+		
+		
+          <main>
+            <h2>Our Services</h2>
+            <div class="services">
+              <div class="service">
+                <img src="https://ibb.co/txkbm2h
+                " alt="Basic Interior Scrub">
+                <h3>Basic Interior Scrub</h3>
+                <p>Garbage removal, clean & disinfect interior surfaces, clean interior windows & mirrors, vacuum interior (excluding trunk).
+                    *Note* SUV's & Vans (over 5 seats) OR vehicles with excess mess will be subject to higher pricing.</p>
+                <p>$149.99+tax</p>
+              </div>
+              <div class="service">
+                <img src="standard-interior.jpg" alt="Standard Interior Scrub">
+                <h3>Standard Interior Scrub</h3>
+                <p>Everything in Basic Scrub Plus; Steam clean seats & floors, vacuum trunk, deep clean floor mats, UV protect interior plastic/vinyl.
+                    *Note* SUV's & Vans (over 5 seats) OR vehicles with excess mess will be subject to higher pricing.</p>
+                <p>$249.99+tax</p>
+              </div>
+              <div class="service">
+                <img src="premium-interior.jpg" alt="Premium Interior Scrub">
+                <h3>Premium Interior Scrub</h3>
+                <p>Everything in the Standard Scrub PLUS; Dress interior plastic/vinyl, seat removal to deep clean & condition leather/vinyl or shampoo seats, shampoo carpets, clean headliner.Â  Clean door jams.
+*Note* SUV's & Vans (over 5 seats) OR vehicles with excess mess will be subject to higher pricing.
+</p>
+                <p>$349.99+tax</p>
+              </div>
+              <div class="service">
+                <img src="basic-exterior.jpg" alt="Basic Exterior Scrub">
+                <h3>Basic Exterior Scrub</h3>
+                <p>Pre rinse<p>
+                <p>Bug removal</p>
+                <p>Foam canon</p>
+                <p>Foaming hand wash</p>
+                <p>Microfiber towel dry</p>
+                    
+                <p>$79.99+tax</p>
+              </div>
+              <div class="service">
+                <img src="https://images.app.goo.gl/K2ugpPc5MzcPxWd3A" alt="Standard Exterior Scrub">
+                <h3>Standard Exterior Scrub</h3>
+                <p>Everything In Basic Exterior Scrub</p>
+                <p>Hand wash wheels.</p>
+                <p>Tires & wheel wells scrubed</p>
+                <p>Door jams cleaned</p>
+                <p>Windows cleaned</p>
+                <p>$169.99</p>
+              </div>
+              <div class="service">
+                <img src="premium-exterior.jpg" alt="Premium Exterior Scrub">
+                <h3>Premium Exterior Scrub</h3>
+                <p>Everything In Standard Scrub +</p>
+                <p>Tires shined</p>
+                <p>Chrome Polished</p>
+                <p>Plastic restoration</p>
+    
+                <p>$299.99+tax</p>
+              </div>
+              <div class="service">
+                <img src="royal-scrub.jpg" alt="Royal Scrub">
+                <h3>Royal Scrub</h3>
+                <p>Everything In Premium Scrub+</p>
+                <p>Clay bar</p>
+                <p>Polish and/or wax paint</p>
+
+                <p>$499.99+tax</p>
+              </div>
+              <div class="service">
+                <img src="headlight-restoration.jpg" alt="Headlight Restorations">
+                <h3>Headlight Restorations</h3>
+                <p>Our headlight restoration will have your headlights looking crystal clear like they should. We will mask off the headlights to protect your paint. Than we will wet sand away the uv damaged plastic. After sanding we will polish and wax the lenses to prepare for our final step, UV sealant!</p>
+                <p>$124.99</p>
+              </div>
+              <div class="service">
+                <img src="engine-bay-scrub.jpg" alt="Engine Bay Scrub">
+                <h3>Engine Bay Scrub</h3>
+                <p>Our engine bay wash consists of a hand foam wash and brush agitation, Engine bay plastic restoration, followed by a thorough rinse! This is the perfect add on to perfect the look of a basic exterior clean. </p>
+                <p>$99.99+tax</p>
+              </div>
+		<section>
+			<h2>Book an Appointment</h2>
+			<form>
+				<label for="make">Make</label>
+				<input type="text" id="make" name="make"><br><br>
+				<label for="model">Model</label>
+				<input type="text" id="model" name="model"><br><br>
+				<label for="year">Year</label>
+				<input type="text" id="year" name="year"><br><br>
+				<label for="date">Date</label>
+				<input type="date" id="date" name="date"><br><br>
+				<input type="submit" value="Book an Appointment">
+			</form>
+			
+			<div id="calendar">
+				<!-- This code creates a calendar linked to Facebook. -->
+			</div>
+		</section>
+	</main>
+	
+	<footer>
+		<div id="location">
+			<p> Louvain Street 181 BC Canada</p>
+		</div>
+		
+		<div id="hours">
+			<p>Mon-Fri: 8am-5pm</p>
+		</div>
+		
+		<div id="contact">
+			<p>Phone: (1)250-570-8109 OR (1)250-570-2656</p>
+			<p>Email: Bigredshandymanservices@gmail.com</p>
+		</div>
+		
+		<div id="social-media">
+			<a href="https://www.facebook.com/autodetailing" target="_blank"><img src="facebook.png"></a>
+			<a href="https://www.instagram.com/autodetailing" target="_blank"><img src="instagram.png"></a>
+		</div>
+	</footer>
+</body>
+</html>
